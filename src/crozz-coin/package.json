@@ -1,5 +1,5 @@
 {
-  "name": "crozz-coin",
+  "name": "crozz",
   "version": "1.0.0",
   "description": "A cryptocurrency project for managing wallets and blockchain.",
   "main": "src/index.ts",

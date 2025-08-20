@@ -1,5 +1,4 @@
-import Wallet from './wallet/wallet';
-import Blockchain from './blockchain/blockchain';
+import Wallet from './wallet';
 
 class Wallet {
     private balance: number;
