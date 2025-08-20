@@ -1,6 +1,8 @@
 // Phantom wallet integration placeholder
 // You can add Phantom wallet related imports or logic here when needed.
 import crypto from 'crypto';
+import Wallet from './wallet/wallet';
+import Blockchain from './blockchain/blockchain';
 
 class Block {
     constructor(public index: number, public previousHash: string, public timestamp: number, public data: any, public hash: string) {}
