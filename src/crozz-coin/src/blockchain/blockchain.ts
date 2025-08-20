@@ -1,3 +1,7 @@
+// Phantom wallet integration placeholder
+// You can add Phantom wallet related imports or logic here when needed.
+import crypto from 'crypto';
+
 class Block {
     constructor(public index: number, public previousHash: string, public timestamp: number, public data: any, public hash: string) {}
 }
@@ -43,7 +47,7 @@ class Blockchain {
     }
 
     private calculateHash(index: number, previousHash: string, timestamp: number, data: any): string {
-        return require('crypto').createHash('sha256').update(index + previousHash + timestamp + JSON.stringify(data)).digest('hex');
+        return crypto.createHash('sha256').update(index + previousHash + timestamp + JSON.stringify(data)).digest('hex');
     }
 }
 

@@ -1,3 +1,6 @@
+import Wallet from './wallet/wallet';
+import Blockchain from './blockchain/blockchain';
+
 class Wallet {
     private balance: number;
     private transactions: Array<{ amount: number; to: string; from: string }>;
