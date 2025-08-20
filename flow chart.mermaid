@@ -1,0 +1,9 @@
+flowchart LR
+    A[Pull Latest Changes<br>git pull origin develop] --> B[Pick Task from<br>Sprint Board];
+    B --> C[Create Feature Branch<br>git checkout -b feature/US-001];
+    C --> D[Code & Test<br>TDD Cycle];
+    D --> E[Commit Changes<br>git commit -m 'feat: US-001'];
+    E --> F[Push & Create<br>Pull Request];
+    F --> G[Code Review];
+    G -- Approved --> H[Merge to Develop];
+    G -- Changes Requested --> D;

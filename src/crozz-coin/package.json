@@ -1,0 +1,27 @@
+{
+  "name": "crozz-coin",
+  "version": "1.0.0",
+  "description": "A cryptocurrency project for managing wallets and blockchain.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/crozz-coin.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain",
+    "wallet"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

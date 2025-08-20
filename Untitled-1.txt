@@ -1,0 +1,44 @@
+crozz-coin-project/
+│
+├── docs/
+│   ├── 01-mision-y-vision/
+│   ├── 02-requisitos/
+│   ├── 03-diseno/
+│   ├── 04-plan-de-pruebas/
+│   └── 05-despliegue-operaciones/
+│
+├── src/
+│   ├── blockchain-node/
+│   ├── smart-contracts/
+│   ├── web-wallet-ui/
+│   ├── api-services/
+│   └── crozz-coin/
+│       ├── package.json
+│       ├── README.md
+│       ├── tsconfig.json
+│       └── src/
+│           ├── index.ts
+│           ├── blockchain/
+│           ├── wallet/
+│           └── types/
+│
+├── tests/
+│   ├── load-testing/
+│   ├── security-audits/
+│   └── uat-scenarios/
+│
+├── infrastructure/
+│   ├── docker/
+│   ├── kubernetes/
+│   └── terraform/
+│
+├── governance/
+│   ├── contributing.md
+│   ├── code-of-conduct.md
+│   └── proposal-template.md
+│
+├── LICENSE
+├── mkdocs.yml
+├── README.md
+├── ROADMAP.md
+└── .gitignore

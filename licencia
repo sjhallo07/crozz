@@ -1,0 +1,25 @@
+
+**2. `docs/02-requisitos/functional-requirements.md` (Ejemplo de requisito)**
+
+```markdown
+# Functional Requirements
+
+## FR-01: Crozz Token Implementation
+
+**Priority:** Critical
+**Description:** The system must implement a native token called CROZ.
+
+**Specification:**
+*   **FR-01.1:** The total supply must be fixed at genesis.
+*   **FR-01.2:** The token must be transferable between addresses with a fee-burning mechanism (e.g., 0.5% of each transaction is burned).
+*   **FR-01.3:** It must be compatible with the Cosmos SDK Bank Module or ERC-20 standard on Ethereum-compatible chains.
+
+## FR-02: On-Chain Governance
+
+**Priority:** High
+**Description:** Token holders must be able to create and vote on proposals for using the community treasury.
+
+**Specification:**
+*   **FR-02.1:** A proposal requires a minimum deposit of 1000 CROZ to be submitted.
+*   **FR-02.2:** Voting period lasts 7 days.
+*   **FR-02.3:** The outcome is determined by a majority of votes, with voting power proportional to the staked amount.

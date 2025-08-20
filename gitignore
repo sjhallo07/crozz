@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+vendor/
+target/
+
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+                    Fase 1: Planificación (V-Model)
+                    ------------------------------
+Requisitos del Usuario  ->  Análisis de Requisitos
+                            |
+Requisitos del Sistema  ->  Diseño del Sistema
+                            |
+                            |
+                    Fase 2: Desarrollo (Ágil)
+                    -------------------------
+                            |
+                            V
+                    Implementación (Sprints Ágiles)
+                            |
+                            V
+    Diseño del Sistema    ->    Pruebas de Integración
+                            |
+    Análisis de Requisitos ->    Pruebas de Sistema
+                            |
+Requisitos del Usuario    ->    Pruebas de Aceptación (UAT)
+                            |
+                            V
+                         Despliegue
+                            |
+                            V
+                     Operaciones y Mantenimiento

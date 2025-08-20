@@ -1,0 +1,58 @@
+crozz-coin-project/
+│
+├── 📁 docs/                           # Documentación centralizada
+│   ├── 01-mision-y-vision/
+│   │   ├── whitepaper.md              # Explicación técnica y de misión
+│   │   └── theological-framework.md   # Marco teológico y el "Gran Plan"
+│   │
+│   ├── 02-requisitos/
+│   │   ├── business-requirements.md   # Requisitos de negocio/alto nivel
+│   │   ├── functional-requirements.md # RFs detallados
+│   │   └── non-functional-requirements.md # RNFs (seguridad, rendimiento)
+│   │
+│   ├── 03-diseno/
+│   │   ├── architecture-decisions.md  # ADRs: Decisiones de arquitectura
+│   │   ├── system-architecture.md     # Diagramas de arquitectura
+│   │   ├── smart-contract-specs/      # Especificaciones técnicas de contratos
+│   │   └── ui-ux-wireframes/          # Mockups y prototipos
+│   │
+│   ├── 04-plan-de-pruebas/
+│   │   ├── test-strategy.md           # Estrategia general de testing
+│   │   ├── integration-test-plan.md   # Plan de pruebas de integración
+│   │   └── uat-test-plan.md           # Plan de pruebas de aceptación
+│   │
+│   └── 05-despliegue-operaciones/
+│       ├── deployment-guide.md        # Guía para desplegar la red
+│       ├── compliance-checklist.md    # Checklist de cumplimiento normativo
+│       └── runbook.md                 # Procedimientos de operaciones (SRE)
+│
+├── 📁 src/                            # Código fuente
+│   ├── 📁 blockchain-node/            # Código del cliente de la blockchain (e.g., Go, Rust)
+│   ├── 📁 smart-contracts/            # Contratos inteligentes (e.g., Solidity, Rust)
+│   │   ├── 📁 crozz-token/
+│   │   ├── 📁 treasury-governance/
+│   │   └── 📁 test/                   # Tests de contratos
+│   │
+│   ├── 📁 web-wallet-ui/              # Frontend de la billetera (e.g., React, Vue)
+│   └── 📁 api-services/               # Microservicios de backend (e.g., Node.js, Python)
+│
+├── 📁 tests/                          # Tests de alto nivel y de integración
+│   ├── 📁 load-testing/               # Scripts de pruebas de carga (e.g., k6, JMeter)
+│   ├── 📁 security-audits/            # Resultados y scripts de auditorías
+│   └── 📁 uat-scenarios/              # Escenarios para User Acceptance Testing
+│
+├── 📁 infrastructure/                 # Infraestructura como Código (IaC)
+│   ├── 📁 terraform/                  # Para provisionar la cloud/infra
+│   ├── 📁 kubernetes/                 # Helm charts / manifests para orquestación
+│   └── 📁 docker/                     # Dockerfiles para todos los componentes
+│
+├── 📁 governance/                     # Gobernanza del proyecto y la comunidad
+│   ├── contributing.md                # Cómo contribuir al proyecto
+│   ├── code-of-conduct.md             # Código de conducta para la comunidad
+│   └── proposal-template.md           # Plantilla para proponer cambios (via Pull Request)
+│
+├── .gitignore                         # Archivos y carpetas para ignorar en Git
+├── LICENSE                            # Licencia del proyecto (e.g., MIT, GPL)
+├── README.md                          # Página principal del repositorio
+├── ROADMAP.md                         # Hito de alto nivel y cronograma
+└── mkdocs.yml                         # Configuración para generar sitio web de docs (opcional)
