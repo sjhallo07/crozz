@@ -1,17 +1,18 @@
 /workspaces/crozz/
+├── crozz-coin/           # Backend principal (TypeScript)
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── src/
+│       ├── index.ts
+│       ├── blockchain/
+│       │   └── blockchain.ts
+│       └── wallet/
+│           └── wallet.ts
+├── website/              # Frontend estático
+│   └── index.html
 ├── .github/
 │   └── workflows/
 │       └── static.yml
-├── crozz-coin/
-│   ├── src/
-│   │   ├── blockchain/
-│   │   │   └── blockchain.ts
-│   │   ├── wallet/
-│   │   │   └── wallet.ts
-│   │   └── index.ts
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── README.md
-├── website/
-│   └── index.html
-├── README.md
+├── .vscode/
+│   └── extensions.json
+└── README.md
