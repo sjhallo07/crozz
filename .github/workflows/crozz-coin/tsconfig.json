@@ -10,8 +10,8 @@
     "rootDir": "./src"
   },
   "include": [
-    "src/**/*"
-, "website/index.ts"  ],
+    "src/**/*", "website/cd /workspaces/crozz/src/crozz-coin npm install"
+  ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"

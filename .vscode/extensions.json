@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 {
     "recommendations": [
         "github.vscode-github-actions"
     ]
+=======
+{
+    "recommendations": [
+        "github.copilot-chat",
+        "github.copilot",
+        "github.vscode-github-actions",
+        "dadroit.dadroit-json-generator"
+    ]
+>>>>>>> d63ed67 (updates)
 }
