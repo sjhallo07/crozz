@@ -1,28 +1,31 @@
-# Crozz Coin Project
+# crozz
 
-> The financial foundation for a higher purpose. Part of the Great Plan.
+Scripts avanzados en PowerShell para automatización y tareas administrativas.
 
-Crozz Coin is a cryptocurrency project designed to foster global economic stability and fund initiatives for peace, prosperity, and the improvement of life quality worldwide.
+## Características
 
-## 📖 Documentation
+- Automatización de tareas del sistema
+- Manejo eficiente de scripts en PowerShell
+- Ejemplos prácticos para administración
 
-Start with our [Whitepaper](./docs/01-mision-y-vision/whitepaper.md) and [Theological Framework](./docs/01-mision-y-vision/theological-framework.md) to understand the mission.
+## Instalación
 
-For developers, the [Project Roadmap](./ROADMAP.md) and [Architecture Decisions](./docs/03-diseno/architecture-decisions.md) are the best starting points.
+Clona el repositorio y ejecuta los scripts en PowerShell:
 
-## 🏗️ Architecture Overview
+``powershell
+git clone https://github.com/sjhallo07/crozz.git
+cd crozz
+.\script.ps1
+``
 
-This project is structured as a multi-component system:
-*   **Blockchain Node**: A custom blockchain built using [Cosmos SDK](https://cosmos.network/)/[Substrate](https://substrate.io/).
-*   **Smart Contracts**: Core logic for token, treasury, and governance.
-*   **Web Wallet**: User-friendly interface to interact with the Crozz network.
-*   **API Services**: Backend services for explorers and data aggregation.
+## Uso
 
-## 🚀 Getting Started
+Modifica y ejecuta los scripts según tus necesidades administrativas.
 
-Prerequisites: Docker, Go 1.19+, Rust.
+## Tecnologías
 
+- PowerShell
 
+## Autor
 
-# Run a local testnet using Docker
-docker-compose -f infrastructure/docker/testnet.yaml up
+Marcos Mora
